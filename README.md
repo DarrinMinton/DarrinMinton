@@ -1,49 +1,29 @@
-# 👋 Hey there, I'm Darrin Minton
+# 🔐 Password Strength Checker
 
-Welcome to my GitHub! I'm an **Information Technology major with a concentration in Cybersecurity**. I'm currently building a strong foundation in programming, networking, and security practices as I work toward a career in tech.
-
----
-
-## 💡 About Me
-
-- 🎓 IT major focused on **Cybersecurity**
-- 🔐 Interested in digital security, system vulnerabilities, and network defense
-- 🌱 Building up my coding skills and exploring hands-on projects to grow my knowledge
+This Python project checks the strength of a user-provided password and offers an option to generate a strong one. It’s a simple and effective script that demonstrates fundamental programming concepts and cybersecurity awareness.
 
 ---
 
-## 🧰 Tech Skills
+## 💡 Features
 
-- **Languages:** Python (intermediate), SQL (intermediate), HTML/CSS  
-- **Tools & Platforms:** Git, GitHub, Windows/Linux, iOS
-- **Focus Areas:** Cybersecurity, Networking, Systems, Basic Scripting
-
----
-
-## 📌 Projects
-
-More coming soon as I continue to learn and build!  
-(Currently working on small Python and security-focused practice projects.)
+- ✅ Analyzes password strength based on:
+  - Minimum length (8 characters)
+  - Use of uppercase and lowercase letters
+  - Inclusion of numbers
+  - Presence of special characters
+  - Checks against a list of common weak passwords
+- 🔒 Optional secure password generator (randomized 12-character passwords)
 
 ---
 
-## 📊 GitHub Stats
+## 📸 Demo
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=richardminton&show_icons=true&theme=default)
+```bash
+1. Check password strength
+2. Generate a strong password
+Choose an option (1 or 2): 1
+Enter a password to check: Hello123!
+Password strength: Strong
 
----
-
-## 🚀 Currently Learning
-
-- Fundamentals of cybersecurity and ethical hacking  
-- Expanding knowledge of Python scripting and SQL  
-- Basics of network security, system hardening, and threat detection
-
----
-
-## 🤝 Connect with Me
-
-- 📫 Email: darrinminton@outlook.com  
-- 💼 LinkedIn: [linkedin.com/in/richardminton](https://linkedin.com/in/richardminton)
-
-Thanks for stopping by — feel free to check out what I’m working on or reach out to connect!
+git clone https://github.com/darrinminton/password-strength-checker.git
+cd password-strength-checker
